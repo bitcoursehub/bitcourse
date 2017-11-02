@@ -1,11 +1,10 @@
-pragma solidity ^0.4.13;
+pragma solidity ^0.4.11;
 
 import "./Lesson.sol";
 
 contract IndividualLesson is Lesson {
-    address public student;
 
-    event Balance(uint256 balance);
+    address public student;
 
     function IndividualLesson(address _student, address _token, uint256 _price) Lesson(_token, _price) {
           student = _student;

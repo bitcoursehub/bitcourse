@@ -1,8 +1,8 @@
 pragma solidity ^0.4.11;
 
-import './token/BCSDToken.sol';
+import '../token/BCSDToken.sol';
+import '../token/MintableToken.sol';
 import './Crowdsale.sol';
-import './token/MintableToken.sol';
 
 contract BCSDTokenCrowdsale is Crowdsale {
 

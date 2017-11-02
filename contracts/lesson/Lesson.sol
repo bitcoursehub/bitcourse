@@ -1,6 +1,6 @@
 pragma solidity ^0.4.11;
 
-import './token/BCSDToken.sol';
+import '../token/BCSDToken.sol';
 
 contract Lesson {
 
